@@ -3,7 +3,6 @@ package com.iquantex.akka.persistence;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
-import akka.persistence.RecoveryCompleted;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -21,7 +20,7 @@ public class MainTest {
         final ActorSystem actorSystem = ActorSystem.create("actor-server");
 
         final ActorRef handler = actorSystem.actorOf(Props.create(EventHandler. class));
-        // 订阅
+        // 订阅handler，handler发布的消息都能被eventStream接收。
         actorSystem.eventStream().subscribe(handler , Evt.class);
 
         Thread.sleep(5000);
