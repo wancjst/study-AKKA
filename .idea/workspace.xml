@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63658de5-5bef-4cc0-80cb-8080540126c8" name="Default Changelist" comment="" />
+    <list default="true" id="63658de5-5bef-4cc0-80cb-8080540126c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quail/dataClass/DIYDataClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quail/replicator/get/DemoGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quail/replicator/update/DemoUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quail/replicator/update/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quail/replicator/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quail/replicator/update/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quail/replicator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quail/replicator/update/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quail/replicator/update/Main.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +30,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1uvu0TNB9F5JqpJX4Ry8XIlPGif" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../phoenix" />
@@ -34,6 +49,12 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5264368" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,11 +70,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quail.replicator.update.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.quail.replicator.Main" />
       <module name="distributed-data" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.quail.replicator.update.*" />
+          <option name="PATTERN" value="com.quail.replicator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,11 +98,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625558160333</updated>
-      <workItem from="1625558163182" duration="7463000" />
+      <workItem from="1625558163182" duration="21744000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

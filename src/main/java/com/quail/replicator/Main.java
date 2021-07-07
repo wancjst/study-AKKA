@@ -1,8 +1,9 @@
-package com.quail.replicator.update;
+package com.quail.replicator;
 
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
+import com.quail.replicator.HelloWorld;
 
 /**
  * @author quail
