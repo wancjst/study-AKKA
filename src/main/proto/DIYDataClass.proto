@@ -1,0 +1,10 @@
+// 生成类的包路径
+option java_package = "com.quail.dataClass";
+//生成的数据访问类的类名
+option java_outer_classname = "DataClassMessages";
+option optimize_for = SPEED;
+
+message DataClass {
+  repeated string adds = 1;
+  repeated string removals = 2;
+}

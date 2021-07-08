@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63658de5-5bef-4cc0-80cb-8080540126c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quail/dataClass/DIYDataClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quail/replicator/get/DemoGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quail/replicator/update/DemoUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quail/dataClass/DIYDataClassSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/DIYDataClass.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/generator_proto.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quail/replicator/update/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quail/replicator/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quail/replicator/update/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quail/replicator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/quail/replicator/update/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/quail/replicator/update/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quail/replicator/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quail/replicator/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/distributed-data.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quail/replicator/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quail/replicator/HelloWorld.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../phoenix" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,11 +49,19 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5264368" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\quail\jerry\distributed-data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\quail\jerry\distributed-data\src\main\proto" />
+      <recent name="D:\quail\jerry\distributed-data\src\main\java\com\quail\dataClass" />
+      <recent name="D:\quail\jerry\distributed-data\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -98,7 +106,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625558160333</updated>
-      <workItem from="1625558163182" duration="21744000" />
+      <workItem from="1625558163182" duration="25350000" />
+      <workItem from="1625727916662" duration="5880000" />
     </task>
     <servers />
   </component>
@@ -110,7 +119,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

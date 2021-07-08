@@ -7,22 +7,17 @@ import akka.actor.Cancellable;
 import akka.cluster.Cluster;
 import akka.cluster.ddata.DistributedData;
 import akka.cluster.ddata.Key;
-import akka.cluster.ddata.ORMultiMap;
 import akka.cluster.ddata.ORSet;
 import akka.cluster.ddata.ORSetKey;
-import akka.cluster.ddata.PNCounterMap;
 import akka.cluster.ddata.Replicator;
 import akka.cluster.ddata.Replicator.Changed;
 import akka.cluster.ddata.Replicator.Subscribe;
 import akka.cluster.ddata.Replicator.Update;
 import akka.cluster.ddata.Replicator.UpdateResponse;
-import akka.cluster.ddata.SelfUniqueAddress;
 import akka.event.Logging;
 import akka.event.LoggingAdapter;
 
 import java.time.Duration;
-import java.util.Arrays;
-import java.util.HashSet;
 import java.util.concurrent.ThreadLocalRandom;
 
 
@@ -135,16 +130,9 @@ public class HelloWorld extends AbstractActor {
 
     @Override
     public void preStart(){
-        final ORMultiMap<String, Integer> m0 = ORMultiMap.create();
-        final ORMultiMap<String, Integer> m1 = m0.put(cluster, "a", new HashSet<>(Arrays.asList(1, 2, 3)));
-        final ORMultiMap<String, Integer> m2 = m1.addBinding(cluster, "a", 4);
-        final ORMultiMap<String, Integer> m3 = m2.removeBinding(cluster, "a", 2);
-        final ORMultiMap<String, Integer> m4 = m3.addBinding(cluster, "b", 1);
-        System.out.println(m4.getEntries());
-
         // 订阅, 监控dataKey的变化
-//        Subscribe<ORSet<String>> sub = new Subscribe<>(dataKey, getSelf());
-//        replicator.tell(sub, Actor.noSender());
+        Subscribe<ORSet<String>> sub = new Subscribe<>(dataKey, getSelf());
+        replicator.tell(sub, Actor.noSender());
     }
 
     @Override
